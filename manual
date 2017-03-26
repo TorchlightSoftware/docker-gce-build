@@ -3,4 +3,4 @@ docker run --rm \
   -e DEPLOY_NAME=foo \
   -e CONTAINER_NAME=bar \
   --entrypoint /bin/sh \
-  -it gcr.io/`scripts/get-gce-config project_id`/`scripts/get_name`:`scripts/get_version`
+  -it gcr.io/`scripts/get-gce-config`/`scripts/get-name`:`scripts/get-version`

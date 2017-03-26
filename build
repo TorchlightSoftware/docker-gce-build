@@ -1,2 +1,2 @@
 #!/bin/bash
-docker build -t gcr.io/`scripts/get-gce-config project_id`/`scripts/get_name`:`scripts/get_version` .
+docker build -t gcr.io/`scripts/get-gce-config`/`scripts/get-name`:`scripts/get-version` .

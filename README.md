@@ -9,7 +9,7 @@ These are some scripts that I've built up while using Docker and Google Cloud.  
 ```bash
 ./scripts/build # will build the Dockerfile in the current directory named by name/version from package.json
 ./scripts/start # will start the image with the current name/version from package.json
-./scripts/deploy # the image is prefixed with your current GCE project - this will deploy it to GCE
+./scripts/push # the image is prefixed with your current GCE project - this will deploy it to GCE
 ./scripts/restart # restart the image
 ./scripts/stop # stop the image
 ./scripts/manual # will start the image with a bash terminal
