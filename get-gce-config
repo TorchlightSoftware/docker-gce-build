@@ -1,0 +1,2 @@
+#!/bin/bash
+gcloud config get-value project 2>&1 | tail -1

@@ -1,0 +1,2 @@
+#!/bin/bash
+grep -m1 name package.json | awk -F: '{ print $2 }' | sed 's/[", ]//g'
