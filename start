@@ -1,5 +1,4 @@
 #!/bin/bash
 docker run --name `scripts/get-name` -d  \
-  -e DEPLOY_NAME=foo \
-  -e CONTAINER_NAME=bar \
+  --env-file tmp/ENV \
   gcr.io/`scripts/get-gce-config`/`scripts/get-name`:`scripts/get-version`
