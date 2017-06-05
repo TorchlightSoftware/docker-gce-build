@@ -1,0 +1,2 @@
+#!/bin/bash
+echo gcr.io/`scripts/get-gce-config`/`scripts/get-name`:`scripts/get-version`
